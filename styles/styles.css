@@ -1,0 +1,28 @@
+body {
+    color:#736e6e;
+}
+
+a {
+    color: #736e6e;
+}
+
+#navbar {
+    display: flex;
+    /* border: solid 3px yellow; */
+    margin: 20px;
+    /*justify-content: space-evenly;*/
+}
+
+#navbar-left {
+    /* border: solid 1px red; */
+    display: flex;
+    justify-content: left;
+    width: 50%
+}
+
+#navbar-right {
+    /* border: solid 1px blue; */
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}

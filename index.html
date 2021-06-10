@@ -10,6 +10,8 @@
 
   <link rel="stylesheet" href="styles/reset.css">
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
 </head>
 
@@ -22,24 +24,28 @@
         <a href="#">About</a>
         <a href="#">Store</a>
       </div>
+      <div id="navbar-center"></div>
       <div id="navbar-right">
         <a href="#">Gmail</a>
         <a href="#">Images</a>
-        <a href="#">MENU ICON</a>
-        <button>Sign In</button>
+        <img src="/images/outline_apps_black_24dp.png" alt="Apps Icon">
+        <button id="navbar-button">Sign In</button>
       </div>
     </nav>
 
   </header>
 
-  <main>
-
-    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+  <main id="search-field">
+    <div id="search-field-left"></div>
+    <div id="search-field-center">
+    <img id="logo-main" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
     <input type="text"></input>
     <button>Google Search</button>
     <button>I'm Feeling Lucky</button>
 
     <p>Google offered in: <a href="#">Deutsch</a></p>
+    </div>
+    <div id="search-field-right"></div>
 
   </main>
   

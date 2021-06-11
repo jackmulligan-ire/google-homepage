@@ -56,7 +56,7 @@ a:hover{
 #search-field{
     border: 5px blue solid;
     display: flex;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 #search-field-left{
@@ -71,6 +71,7 @@ a:hover{
     flex-direction: column;
     justify-content: center;
     width: 40%;
+    align-items: center;
 }
 
 #search-field-right {
@@ -81,7 +82,34 @@ a:hover{
 
 #logo-main {
     border: 1px red solid;
-    margin-top: 100px auto 100px auto;
-    max-width: 100%;
+    max-width: 75%;
     height: auto;
+    padding: 20px 0;
+}
+
+#search-input{
+    width: 98%;
+    height: 20px;
+    border-radius: 20px;
+    border: 1px gray solid;
+    height: 100%;
+}
+
+#input-container {
+    width: 100%;
+    padding: 20px 0px;
+    height: 25px;
+    position: relative;
+}
+
+#input-img-left {
+    position: absolute;
+    left: 10px;
+    top: 26px;
+}
+
+#input-img-right {
+    position: absolute;
+    top: 25px;
+    right: 10px;
 }

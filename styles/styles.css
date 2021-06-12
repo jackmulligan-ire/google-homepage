@@ -15,7 +15,8 @@ a:hover{
 #navbar {
     display: flex;
     /* border: solid 3px yellow; */
-    margin: 20px;
+    margin: 10px 0px;
+    font-size: 85%;
     /*justify-content: space-evenly;*/
 }
 
@@ -24,7 +25,14 @@ a:hover{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 15%;
+    width: 13%;
+    padding: 10px;
+}
+
+#navbar-center {
+    width: 58%;
+    display: flex;
+    /* border: solid 1px green; */
     padding: 10px;
 }
 
@@ -33,14 +41,7 @@ a:hover{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 30%;
-    padding: 10px;
-}
-
-#navbar-center {
-    width: 50%;
-    display: flex;
-    /* border: solid 1px green; */
+    width: 28%;
     padding: 10px;
 }
 
@@ -54,34 +55,29 @@ a:hover{
 }
 
 #search-field{
-    border: 5px blue solid;
     display: flex;
     margin-top: 50px;
 }
 
 #search-field-left{
-    width: 30%;
-    border: 2px orange solid;
+    width: 25%;
     display: flex;
 }
 
 #search-field-center {
-    border: 2px yellow solid;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 40%;
+    width: 50%;
     align-items: center;
 }
 
 #search-field-right {
     display: flex;
-    width: 30%;
-    border: 2px red solid;
+    width: 25%;
 }
 
 #logo-main {
-    border: 1px red solid;
     max-width: 75%;
     height: auto;
     padding: 20px 0;
@@ -91,25 +87,94 @@ a:hover{
     width: 98%;
     height: 20px;
     border-radius: 20px;
-    border: 1px gray solid;
+    border: 1px rgba(128,128,128,0.25) solid;
     height: 100%;
+}
+
+#search-input:hover{
+    box-shadow: 0px 0px 3px 1px rgb(128 128 128 / 15%);
 }
 
 #input-container {
     width: 100%;
     padding: 20px 0px;
-    height: 25px;
+    height: 43px;
     position: relative;
 }
 
 #input-img-left {
+    background: url(/images/outline_search_black_18dp.png) no-repeat;
     position: absolute;
-    left: 10px;
-    top: 26px;
+    left: 16px;
+    top: 35px;
+    width: 22px;
+    height: 20px;
+    transform: scale(1.2);
+    border: none;
 }
 
 #input-img-right {
+    background: url(/images/outline_keyboard_voice_black_18dp.png) no-repeat;
     position: absolute;
-    top: 25px;
-    right: 10px;
+    top: 35px;
+    right: 12px;
+    width: 22px;
+    transform: scale(1.2);
+    height: 20px;
+    border: none;
+}
+
+.search-button{
+    padding: 9px 15px;
+    border: 1px rgb(239, 239, 239) solid;
+    border-radius: 5px;
+    color: #524f4f;
+}
+
+.search-button:hover{
+    color: #000;
+    border: 1px rgb(128 128 128 / 33%) solid;
+    box-shadow: 0px 0px 2px rgb(128 128 128 / 33%);
+}
+
+#search-div {
+    width: 62%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+
+footer {
+    background: rgb(239, 239, 239);
+    height: 32px;
+    border: 1px rgb(128 128 128 / 33%) solid;
+    color: #524f4f;
+    padding-top: 5px;
+    font: 400 13.3333px Arial;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+}
+
+#footer-left {
+    width: 33%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#footer-center {
+    width: 42%;
+}
+
+#footer-right {
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer div a {
+    color: #524f4f;
 }

@@ -4,6 +4,6 @@ Mini-project created as part of The Odin Project.
 
 ## Aims
 
-- To solidy knowledge on HTML and CSS, on using Git and GitHub
+- To solidify knowledge on HTML and CSS, on using Git and GitHub
 
 
